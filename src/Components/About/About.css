@@ -1,0 +1,42 @@
+.about-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem 2rem;
+    align-items: center;
+}
+
+.about-data {
+    text-align: center;
+}
+
+.about-img {
+    width: 120px;
+    margin-bottom: var(--mb-0-75);
+    transition: .3s;
+    font-size: var(--biggest-font-size);
+    color: var(--text-colour);
+}
+
+.title {
+    margin-bottom: var(--mb-0-25);
+}
+
+.about-data:hover .about-img {
+    transform: translateY(-.5rem);
+}
+
+/* Media Breakpoints */
+@media screen and (max-width: 320px) {
+    .about-container {
+        grid-template-columns: .8fr;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .about-container {
+        column-gap: 8rem;
+    }
+    .about-img {
+        margin-bottom: var(--mb-1);
+    }
+}

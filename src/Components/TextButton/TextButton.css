@@ -1,0 +1,14 @@
+.text-button {
+    margin-bottom: 0;
+    color: var(--title-colour);
+    display: inline-flex;
+    align-items: center;
+    column-gap: .5rem;
+}
+
+.buttonIcon {
+    transition: .3s;
+}
+.text-button:hover .buttonIcon {
+    transform: translateY(.3rem);
+}

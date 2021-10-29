@@ -1,0 +1,12 @@
+.resume-container {
+    row-gap: 2rem;
+    margin-bottom: var(--mb-1);
+}
+/* media breakpoints */
+@media screen and (min-width: 767px) {
+    .resume-container {
+        padding: 1rem 0 2rem;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4rem;
+    }
+}
