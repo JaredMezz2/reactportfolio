@@ -8,7 +8,7 @@ RUN yarn
 RUN yarn add react-scripts@3.4.1 -g
 COPY . ./
 RUN yarn run build
-FROM nginx:stable-alpine
-COPY --from=build /src/build /usr/share/nginx/html
+FROM nginx:latest
+COPY --from=build /src/ /usr/share/nginx/html
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
