@@ -41,6 +41,8 @@
         left: 0;
         padding: 3.5rem 0;
         transition: .4s;
+        -webkit-transition-property: top;
+        -webkit-transition-duration: .4s;
         z-index: var(--z-fixed);
         border-radius: 0 0 1.5rem 1.5rem;
     }
@@ -80,6 +82,8 @@
 .scroll-header {
     background: var(--container-color);
     transition: 0.4s;
+    -webkit-transition-property: background;
+    -webkit-transition-duration: .4s;
 }
 
 .active-link {
