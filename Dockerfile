@@ -7,4 +7,4 @@ COPY /yarn.lock ./
 RUN yarn
 RUN yarn add react-scripts@3.4.1 -g
 COPY . ./
-RUN yarn --max_old_space_size=512 run build
+RUN yarn run build
