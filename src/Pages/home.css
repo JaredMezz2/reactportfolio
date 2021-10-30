@@ -15,12 +15,10 @@
     /*--body-color: linear-gradient(90deg, hsl(104, 28%, 40%) 0%, hsl(58, 28%, 40%) 100%);*/
     /*--container-color: linear-gradient(136deg, hsl(104, 28%, 35%) 0%, hsl(58, 28%, 35%) 100%);*/
 
+    /* Body Gradient -- Miami Vice-ish */
     --body-color: linear-gradient(90deg, hsl(175, 28%, 40%) 0%, hsl(273, 28%, 40%) 100%);
     --container-color: linear-gradient(136deg, hsl(175, 28%, 35%) 0%, hsl(273, 28%, 35%) 100%);
 
-    /* Miami Vice Gradient */
-    /*--body-color: linear-gradient(326deg, rgba(79,242,255,1) 0%, rgba(255,95,254,1) 100%);*/
-    /*--container-color: linear-gradient(225deg, rgb(56, 170, 179) 0%, rgb(172, 66, 171) 100%);*/
 
     /* Font and typography */
     --body-font: 'Poppins', sans-serif;

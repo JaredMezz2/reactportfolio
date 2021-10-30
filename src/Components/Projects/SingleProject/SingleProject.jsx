@@ -21,8 +21,8 @@ class SingleProject extends Component {
                         </ul>
                         { this.props.projectLinks ?
                             <div className='sProject-buttons'>
-                                {this.props.projectLinks.github ? <Button buttonTitle="View Code" buttonLink={this.props.projectLinks.github.toString()}/> : null }
-                                {this.props.projectLinks.liveSite ? <Button buttonTitle="Visit Site" buttonLink={this.props.projectLinks.liveSite.toString()}/> : null }
+                                {this.props.projectLinks.github ? <Button buttonTitle="View Code" buttonTarget="_blank" buttonLink={this.props.projectLinks.github.toString()}/> : null }
+                                {this.props.projectLinks.liveSite ? <Button buttonTitle="Visit Site" buttonTarget="_blank" buttonLink={this.props.projectLinks.liveSite.toString()}/> : null }
                             </div>
                             : null }
                     </div>

@@ -26,7 +26,7 @@ class Header extends Component {
                                 </p>
 
                                 <div className="header-buttons">
-                                    <Button buttonTitle="Contact" buttonLink="#"/>
+                                    <Button buttonTitle="Contact" buttonLink="#contact"/>
                                     <TextButton buttonTitle="View Projects" buttonIcon={<FaArrowDown className="buttonIcon"/>} buttonLink="#projects"></TextButton>
                                 </div>
                             </div>
