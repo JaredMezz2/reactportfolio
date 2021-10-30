@@ -4,8 +4,7 @@ FROM node:14.15.1 as builder
 WORKDIR /app
 ENV PATH /app/node_modules/.bin$PATH
 COPY package.json ./
-RUN npm config set unsafe-perm true
-&& npm install
+RUN npm config set unsafe-perm true && npm install
 COPY . ./
 RUN npm run build
 
