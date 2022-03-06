@@ -3,7 +3,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://localhost:4000/api'
+    baseURL: 'http://localhost:3000/portfolio'
 });
 
 export const submitContact = payload => api.post('/contact', payload);

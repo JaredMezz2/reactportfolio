@@ -6,6 +6,7 @@
     border-radius: .5rem;
     font-weight: var(--font-medium);
     transition: .3s;
+    cursor: pointer;
 }
 .button:hover {
     background-color: var(--first-colour-alt);

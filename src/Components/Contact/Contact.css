@@ -21,6 +21,21 @@
     color: var(--text-colour);
 }
 
+.button {
+    display: inline-block;
+    background-color: var(--first-colour);
+    color: var(--title-colour);
+    padding: 1rem 1.75rem;
+    border-radius: .5rem;
+    font-weight: var(--font-medium);
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    transition: .3s;
+}
+.button:hover {
+    background-color: var(--first-colour-alt);
+}
+
 @media screen and (min-width: 767px) {
     .contact-container {
         grid-template-columns: repeat(2, max-content);
