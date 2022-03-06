@@ -3,7 +3,8 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://localhost:3000/portfolio'
+    // baseURL: 'http://localhost:3000/portfolio'
+    baseURL: 'srv-captain--api-server/portfolio'
 });
 
 export const submitContact = payload => api.post('/contact', payload);

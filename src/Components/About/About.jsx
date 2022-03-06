@@ -16,7 +16,7 @@ class About extends Component {
                         <div className="about-data">
                             <FaUser className="about-img"/>
                             <h3 className="title">Jared <br/>Mezzatesta</h3>
-                            <p className="description">22 Years Old</p>
+                            <p className="description">23 Years Old</p>
                         </div>
                     </Fade>
                     <Fade right>

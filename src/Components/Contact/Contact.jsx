@@ -46,10 +46,10 @@ class Contact extends Component {
                                     Please feel free to reach out, I'd love to get to know your project!
                                 </p>
                                 <form onSubmit={this.handleSubmit} className="contact-form">
-                                    <input type="text" className="contact-input" name="name" id="name" placeholder="Name" value={this.state.name} onChange={this.handleNameChange}/>
-                                    <input type="email" className="contact-input" name="email" id="email" placeholder="Email" value={this.state.email} onChange={this.handleEmailChange}/>
-                                    <textarea name="message" id="message" cols="30" rows="10" className="contact-input" placeholder="Let me know what you're working on!" onChange={this.handleMessageChange} value={this.state.message}></textarea>
-                                    <input type="submit" value='Send Message' className='button' cur/>
+                                    <input type="text" className="contact-input" name="name" id="name" placeholder="Name" value={this.state.name} onChange={this.handleNameChange} required/>
+                                    <input type="email" className="contact-input" name="email" id="email" placeholder="Email" value={this.state.email} onChange={this.handleEmailChange} required/>
+                                    <textarea name="message" id="message" cols="30" rows="10" className="contact-input" placeholder="Let me know what you're working on!" required onChange={this.handleMessageChange} value={this.state.message}></textarea>
+                                    <input type="submit" value='Send Message' className='button' />
                                 </form>
                             </Fade>
                         </div>
