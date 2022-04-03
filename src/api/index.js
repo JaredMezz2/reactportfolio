@@ -3,14 +3,16 @@
 import axios from 'axios';
 
 const api = axios.create({
-    // baseURL: 'http://localhost:3000/portfolio'
-    baseURL: 'http://srv-captain--api-server/portfolio'
+    // baseURL: 'http://localhost:8393/portfolio'
+    baseURL: 'https://srv-captain--api-server/portfolio'
 });
 
-export const submitContact = payload => api.post('/contact', payload);
+export const testCall = payload => api.get('/');
+export const submitContact = payload => api.post('/portfolio/contact', payload);
 
 const apis = {
-    submitContact
+    submitContact,
+    testCall
 }
 
 export default apis;

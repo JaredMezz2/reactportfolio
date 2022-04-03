@@ -106,10 +106,10 @@
     background-color: transparent;
     border-radius: 3rem;
     padding: .75rem 1.5rem;
-    transition: .5s;
+    transition: .4s;
 }
 .button-navMenu:hover {
-
+    color: var(--text-colour);
 }
 
 /* Media Breakpoints */

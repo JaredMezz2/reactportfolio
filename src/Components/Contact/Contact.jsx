@@ -67,7 +67,7 @@ class Contact extends Component {
                                     Please feel free to reach out, I'd love to get to know your project!
                                 </p>
                                 <div className='contact-form'>
-                                    <h3>Thanks for filling this out, I'll be in touch shortly!</h3>
+                                    <h3 className='contact-thanks'>Thanks for filling this out, I'll be in touch shortly!</h3>
                                 </div>
                             </Fade>
                         </div>

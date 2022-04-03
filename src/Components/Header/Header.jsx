@@ -21,8 +21,8 @@ class Header extends Component {
                                 <h3 className="header-subtitle">Software Developer</h3>
                                 <h1 className="header-title">Jared Mezzatesta</h1>
                                 <p className="header-description">
-                                    Hi, my name is Jared Mezzatesta and I'm in my final semester for my BScH in Computer Science with a specialization in Software Engineering.
-                                    I'm currently employed as a Full Stack Web Developer.
+                                    Hi, my name is Jared Mezzatesta and I graduated with an Honours Bachelors of Science in Computer Science & a specialization in Software Engineering.
+                                    I'm currently employed as a Software Developer.
                                 </p>
 
                                 <div className="header-buttons">
