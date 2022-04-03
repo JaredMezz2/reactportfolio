@@ -8,7 +8,7 @@ const api = axios.create({
 });
 
 export const testCall = payload => api.get('/');
-export const submitContact = payload => api.post('/portfolio/contact', payload);
+export const submitContact = payload => api.post('/contact', payload);
 
 const apis = {
     submitContact,
