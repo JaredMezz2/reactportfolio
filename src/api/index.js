@@ -4,7 +4,7 @@ import axios from 'axios';
 
 const api = axios.create({
     // baseURL: 'http://localhost:8393/portfolio'
-    baseURL: 'https://srv-captain--api-server/portfolio'
+    baseURL: 'http://srv-captain--api-server/portfolio'
 });
 
 export const testCall = payload => api.get('/');
