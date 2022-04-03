@@ -31,7 +31,8 @@ class Contact extends Component {
             message: event.target.message.value
         }
         submitContact(payload)
-            .then(r => console.log(r));
+            .then(r => console.log(r))
+            .catch(err => console.log(err));
     }
 
     render(){
