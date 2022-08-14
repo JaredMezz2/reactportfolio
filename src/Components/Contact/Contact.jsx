@@ -2,7 +2,7 @@ import React, { Component, useState } from "react";
 import Fade from "react-reveal/Fade";
 import "./Contact.css"
 
-import { submitContact } from "../../api";
+import { submitContact, testCall } from "../../api";
 
 class Contact extends Component {
     constructor(props) {
@@ -30,9 +30,13 @@ class Contact extends Component {
             email: event.target.email.value,
             message: event.target.message.value
         }
-        submitContact(payload)
+        // submitContact(payload)
+        //     .then(r => console.log(r))
+        //     .catch(err => console.log(err));
+
+        testCall()
             .then(r => console.log(r))
-            .catch(err => console.log(err));
+            .catch(err => console.log(err))
     }
 
     render(){

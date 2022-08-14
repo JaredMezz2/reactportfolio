@@ -11,8 +11,8 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-console.log("Rendered Dom - App Started?");
+console.log("My site loaded -- You probably don't need to be looking here!");
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// reportWebVitals();
