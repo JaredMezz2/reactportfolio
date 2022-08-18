@@ -2,7 +2,7 @@ import React, { Component, useState } from "react";
 import Fade from "react-reveal/Fade";
 import "./Contact.css"
 
-import { submitContact, testCall } from "../../api";
+import { submitContact } from "../../api";
 
 class Contact extends Component {
     constructor(props) {
@@ -30,13 +30,9 @@ class Contact extends Component {
             email: event.target.email.value,
             message: event.target.message.value
         }
-        // submitContact(payload)
-        //     .then(r => console.log(r))
-        //     .catch(err => console.log(err));
-
-        testCall()
+        submitContact(payload)
             .then(r => console.log(r))
-            .catch(err => console.log(err))
+            .catch(err => console.log(err));
     }
 
     render(){
@@ -53,7 +49,7 @@ class Contact extends Component {
                                 <form onSubmit={this.handleSubmit} className="contact-form">
                                     <input type="text" className="contact-input" name="name" id="name" placeholder="Name" value={this.state.name} onChange={this.handleNameChange} required/>
                                     <input type="email" className="contact-input" name="email" id="email" placeholder="Email" value={this.state.email} onChange={this.handleEmailChange} required/>
-                                    <textarea name="message" id="message" cols="30" rows="10" className="contact-input" placeholder="Let me know what you're working on!" required onChange={this.handleMessageChange} value={this.state.message}></textarea>
+                                    <textarea name="message" id="message" cols="30" rows="10" className="contact-input" placeholder="Let me know what you're working on!" required onChange={this.handleMessageChange} value={this.state.message} />
                                     <input type="submit" value='Send Message' className='button' />
                                 </form>
                             </Fade>
