@@ -3,7 +3,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'https://api-server.dev.jaredmezz.com'
+    baseURL: 'https://api.jaredmezz.com'
 });
 
 export const testCall = payload => api.get('/');
