@@ -30,7 +30,7 @@ let projects = [
         techUsed: ['HTML', 'CSS', 'JS'],
         links: {
             github: 'https://github.com/JaredMezz2/TypeSpeed',
-            liveSite: 'https://typespeed.jaredmezz.com'
+            liveSite: 'https://type.jaredmezz.com'
         }
     }
 ]
