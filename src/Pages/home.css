@@ -40,8 +40,8 @@
     --mb-0-5: .5rem;
     --mb-0-75: .75rem;
     --mb-1: 1rem;
-    --mb-1-5: 6vw;
-    /*--mb-1-5: 1.5rem;*/
+    /*--mb-1-5: 6vw;*/
+    --mb-1-5: 1.5rem;
     --mb-2: 2rem;
     --mb-2-5: 2.5rem;
 
@@ -118,8 +118,10 @@ button {
 /* Layout */
 .container {
     max-width: 968px;
-    margin-left: var(--mb-1-5);
-    margin-right: var(--mb-1-5);
+    /*margin-left: var(--mb-1-5);*/
+    margin-left: 6.5%;
+    /*margin-right: var(--mb-1-5);*/
+    margin-right: 6.5%;
     align-self: center;
 }
 .grid {
