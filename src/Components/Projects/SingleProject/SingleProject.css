@@ -1,7 +1,7 @@
 .projects-container {
     background: var(--container-color);
     border-radius: 1rem;
-    padding: 2.5rem 0 1.5rem;
+    padding: 1.5rem 0 1.5rem;
     row-gap: .75rem;
     margin-bottom: var(--mb-1);
 }
