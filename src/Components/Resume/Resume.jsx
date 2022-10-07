@@ -15,7 +15,7 @@ let positions = [
     {
         title: 'Software Developer',
         company: 'The Land Between',
-        dates: '06/2021 - Current'
+        dates: '06/2021 - 09/2022'
     },
     {
         title: 'Customer Service Representative',

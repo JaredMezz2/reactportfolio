@@ -20,25 +20,34 @@
 .sProject-buttons {
     display: flex;
     justify-content: space-around;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.sProject-buttons a {
+    width: 40%;
 }
 .tech-list {
     margin-bottom: var(--mb-0-75)
 }
 
 /* Media Breakpoints */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 576px) {
     .sProject-buttons {
         flex-direction: column;
-        row-gap: 1rem;
+        row-gap: 0.5rem;
         justify-content: center;
         align-items: center;
+    }
+
+    .sProject-buttons a {
+        width: 100%;
     }
 }
 
 /* Media Breakpoints */
-@media screen and (max-width: 576px) {
-    .projects-container {
-        grid-template-columns: .8fr;
-        justify-content: center;
-    }
-}
+/*@media screen and (max-width: 576px) {*/
+/*    .projects-container {*/
+/*        grid-template-columns: .8fr;*/
+/*        justify-content: center;*/
+/*    }*/
+/*}*/

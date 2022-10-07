@@ -9,10 +9,11 @@ import SingleProject from "./SingleProject/SingleProject";
 let projects = [
     {
         title: 'Blue Lakes',
-        purpose: 'Provide The Land Between with a central hub to record crucial lake health data',
+        purpose: 'Provide The Land Between Charity with a central hub to record crucial lake health data',
         techUsed: ['Node.JS', 'Express', 'MongoDB', 'SCSS'],
         links: {
-            github: 'https://github.com/TheLandBetween/BlueLakesProject'
+            github: 'https://github.com/TheLandBetween/BlueLakesProject',
+            liveSite: 'https://bluelakesprojects.com'
         }
     },
     {

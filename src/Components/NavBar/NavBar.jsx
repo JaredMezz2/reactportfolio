@@ -99,7 +99,7 @@ class NavBar extends Component {
                             <a href="#resume" className="nav-link" onClick={this.toggleMenu}>Resume</a>
                         </li>
 
-                        <a href="#contact" className="button-navMenu" onClick={this.toggleMenu}>Contact</a>
+                        <a href="#contact" className="button-navMenu" id='navContact' onClick={this.toggleMenu}>Contact</a>
                     </ul>
                     <div className="nav-close" id="nav-close" onClick={this.toggleMenu}>
                         <FaMixer />
