@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import './home.css';
-import api from '../api';
 
-import { NavBar, Header, About, Resume, Projects, Contact, Footer } from "../Components";
+import { NavBar, Header, About, Resume, Projects, Contact, Footer, Snowfall, Sidebar } from "../Components";
 
 class Home extends Component {
     render() {
         return(
             <>
+                <Snowfall />
                 <NavBar/>
+                {/*<Sidebar />*/}
                 <Header />
                 <About />
                 <Projects />

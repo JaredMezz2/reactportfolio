@@ -1,0 +1,21 @@
+.snowflake {
+    color: white;
+    text-shadow: 0 0 2px #000;
+    position: absolute;
+    left: 0;
+}
+
+@keyframes fall {
+    from {top: 0}
+    to {top: 115%}
+}
+
+@keyframes sideSway {
+    0% {-webkit-transform: translateX(0px)}
+    50% {-webkit-transform: translateX(50px)}
+    100% {-webkit-transform: translateX(0px)}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0%;}
+}

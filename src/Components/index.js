@@ -9,4 +9,7 @@ import Footer from "./Footer/Footer";
 import Button from "./Button/Button"
 import TextButton from "./TextButton/TextButton";
 
-export { NavBar, Header, About, Resume, Projects, Contact, Footer, Button, TextButton };
+import Snowfall from "./Snowfall/Snowfall";
+import Sidebar from "./Sidebar/Sidebar";
+
+export { NavBar, Header, About, Resume, Projects, Contact, Footer, Button, TextButton, Snowfall, Sidebar };

@@ -1,0 +1,16 @@
+#sidebar {
+    border: 2px solid var(--title-colour);
+    position: fixed;
+    top: 40%;
+    left: 0;
+    bottom: 40%;
+    padding: 5px;
+    font-size: 1.5em;
+}
+
+#sidebar a {
+    cursor: pointer;
+}
+#sidebar a:hover {
+    opacity: 0.75;
+}
