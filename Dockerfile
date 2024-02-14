@@ -21,7 +21,7 @@ RUN yarn run build
 FROM nginx:latest
 COPY --from=build /src/build /usr/share/nginx/html
 EXPOSE 80
-CMD ["nginx", "-g", "daemon off;", "-e WATCHPACK_POLLING=true"]
+CMD ["nginx", "-g", "daemon off;"]
 
 # Dev
 #CMD npm start --host 0.0.0.0 --port 3000 --disableHostCheck true

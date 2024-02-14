@@ -18,7 +18,7 @@ let projects = [
     },
     {
         title: 'Mezz Shots',
-        purpose: 'Provide a landing page for personal photography business',
+        purpose: 'Created a landing page for personal photography business',
         techUsed: ['Node.JS', 'Express', 'MongoDB', 'SCSS'],
         links: {
             github: 'https://github.com/JaredMezz2/photography',
