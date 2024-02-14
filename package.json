@@ -1,5 +1,10 @@
 {
   "name": "reactportfolio",
+  "author": {
+    "name": "Jared Mezzatesta",
+    "email": "jared.mezzatesta@gmail.com",
+    "url": "https://jaredmezz.com"
+  },
   "version": "0.1.0",
   "dependencies": {
     "@babel/core": "^7.16.0",
@@ -19,6 +24,7 @@
   "scripts": {
     "start": "set PORT=80 && react-scripts start",
     "build": "set PORT=80 && react-scripts build",
+    "watch": "set PORT=80 && WATCHPACK_POLLING=true react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

@@ -13,7 +13,7 @@ let projects = [
         techUsed: ['Node.JS', 'Express', 'MongoDB', 'SCSS'],
         links: {
             github: 'https://github.com/TheLandBetween/BlueLakesProject',
-            liveSite: 'https://bluelakesprojects.com'
+            // liveSite: 'https://bluelakesprojects.com'
         }
     },
     {

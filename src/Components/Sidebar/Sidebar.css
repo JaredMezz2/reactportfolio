@@ -1,11 +1,16 @@
 #sidebar {
     border: 2px solid var(--title-colour);
     position: fixed;
-    top: 40%;
+    top: 10%;
     left: 0;
     bottom: 40%;
     padding: 5px;
     font-size: 1.5em;
+}
+
+#sidebarContent {
+    display: flex;
+    flex-direction: column;
 }
 
 #sidebar a {

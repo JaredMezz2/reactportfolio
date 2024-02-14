@@ -6,6 +6,9 @@ import "./About.css"
 import '../../Pages/home.css'; // for higher universal styling elements
 
 class About extends Component {
+    getAge(birthDate) {
+        return Math.floor((new Date() - new Date(birthDate).getTime()) / 3.15576e+10)
+    }
     render(){
         return(
             <section className="about section" id="about">
@@ -16,7 +19,7 @@ class About extends Component {
                         <div className="about-data">
                             <FaUser className="about-img"/>
                             <h3 className="title">Jared <br/>Mezzatesta</h3>
-                            <p className="description">23 Years Old</p>
+                            <p className="description">{ this.getAge('1999-02-08') } Years Old</p>
                         </div>
                     </Fade>
                     <Fade right>
