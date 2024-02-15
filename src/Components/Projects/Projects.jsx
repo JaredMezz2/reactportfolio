@@ -8,21 +8,21 @@ import SingleProject from "./SingleProject/SingleProject";
 // json file to read this info, but leaving here for now
 let projects = [
     {
-        title: 'Blue Lakes',
-        purpose: 'Provide The Land Between Charity with a central hub to record crucial lake health data',
-        techUsed: ['Node.JS', 'Express', 'MongoDB', 'SCSS'],
-        links: {
-            github: 'https://github.com/TheLandBetween/BlueLakesProject',
-            // liveSite: 'https://bluelakesprojects.com'
-        }
-    },
-    {
         title: 'Mezz Shots',
         purpose: 'Created a landing page for personal photography business',
         techUsed: ['Node.JS', 'Express', 'MongoDB', 'SCSS'],
         links: {
             github: 'https://github.com/JaredMezz2/photography',
             liveSite: 'https://mezzshots.me'
+        }
+    },
+    {
+        title: 'Blue Lakes',
+        purpose: 'Provide The Land Between Charity with a central hub to record crucial lake health data',
+        techUsed: ['Node.JS', 'Express', 'MongoDB', 'SCSS'],
+        links: {
+            github: 'https://github.com/TheLandBetween/BlueLakesProject',
+            // liveSite: 'https://bluelakesprojects.com'
         }
     },
     {
