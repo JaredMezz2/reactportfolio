@@ -8,7 +8,7 @@ import { Button } from "../index"
 
 let positions = [
     {
-        title: 'Jr Software Developer',
+        title: 'Software Developer',
         company: 'JICDesign',
         dates: '01/2022 - Current'
     },
