@@ -6,7 +6,7 @@ import './App.css';
 import Home from "./Pages/home";
 
 function App() {
-  ReactGA.initialize(process.env.REACT_APP_GA)
+  ReactGA.initialize("G-HD6E7EJL6Y")
 
   return (
     <div className="App">
